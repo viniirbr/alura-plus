@@ -4,29 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/dist/output.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link href="dist/output.css" rel="stylesheet">
     <title>Alura Plus</title>
 </head>
 
 <body class="bg-black-background">
-    <header class="bg-cover flex py-32 px-12" style="background-image: url(img/Background.png);">
+    <header class="bg-cover flex pt-32 pb-12 px-12 w-full bg-no-repeat " style="background-image: url(img/Background.png);">
         <div class="flex flex-col w-[35%] items-center">
             <h1 class="font-sans text-white-main text-center font-bold text-xl mb-4">
                 Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço único.
             </h1>
-            <img src="img/Combo.png" class="mb-12" alt="logomarca do combo Alura e Alura+"/>
-            <button class="bg-blue-button text-white-main rounded-lg p-3 w-full mb-4">
+            <img src="img/Combo.png" class="mb-12" alt="logomarca do combo Alura e Alura+" />
+            <a class="bg-blue-button text-white-main text-center rounded-lg p-3 w-full mb-4
+            transition-all hover:scale-[1.02] active:ring-2 ring-blue-button ring-offset-2 ring-offset-black-background"
+                href="https://www.alura.com.br/">
                 Assine por 12x de R$ 120,00*
-            </button>
-            <button class="text-white-main rounded-lg p-3 w-full border-white-main border-[1px]">
+            </a>
+            <a class="bg-transparent text-white-main text-center rounded-lg p-3 w-full border-white-main border-[1px]
+            transition-all hover:scale-[1.02] active:ring-2 ring-white-main ring-offset-2 ring-offset-black-background"
+                href="https://www.alura.com.br/compra/plus/">
                 Assinar somente o Alura+
-            </button>
+            </a>
+            <p class="text-gray-secondary text-center text-xs mt-1">*O preço pode variar caso a assinatura seja feita em
+                outros planos.</p>
         </div>
-
     </header>
+    <section class="py-24 px-32 w-full flex items-center">
+        <img src="./img/Pixel True Mockup 1.png" alt="" class="w-120 mr-16">
+        <div>
+            <h2 class="text-white-main font-bold text-3xl mb-2">Assista do seu jeito</h2>
+            <p class="text-white-secondary opacity-80">Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros aparelhos. Nossa seleção de 
+                cursos não para de crescer.</p>
+        </div>
+    </section>
 </body>
 
 </html>
