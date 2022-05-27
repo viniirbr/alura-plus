@@ -11,20 +11,21 @@
     <title>Alura Plus</title>
 </head>
 
-<body class="bg-black-background">
-    <header class="bg-cover flex pt-32 pb-12 px-12 w-full bg-no-repeat "
-        style="background-image: url(img/Background.png);">
-        <div class="flex flex-col w-[35%] items-center">
+<body class="bg-black-background w-full">
+    <header class="flex justify-center pt-32 pb-12 px-12 w-full xl:justify-start">
+        <div class="flex flex-col w-[35%] items-center min-w-[280px] lg:w-full xl:w-[35%]">
             <h1 class="font-sans text-white-main text-center font-bold text-xl mb-4">
                 Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço único.
             </h1>
             <img src="img/Combo.png" class="mb-12" alt="logomarca do combo Alura e Alura+" />
-            <a class="bg-blue-button text-white-main text-center rounded-lg p-3 w-full mb-4
+            <a class="bg-blue-button text-white-main text-center rounded-lg p-3 mb-4
+            lg:w-1/2 xl:w-full
             transition-all hover:scale-[1.02] active:ring-2 ring-blue-button ring-offset-2 ring-offset-black-background"
                 href="https://www.alura.com.br/">
                 Assine por 12x de R$ 120,00*
             </a>
-            <a class="bg-transparent text-white-main text-center rounded-lg p-3 w-full border-white-main border-[1px]
+            <a class="bg-transparent text-white-main text-center rounded-lg p-3 border-white-main border-[1px]
+            lg:w-1/2 xl:w-full
             transition-all hover:scale-[1.02] active:ring-2 ring-white-main ring-offset-2 ring-offset-black-background"
                 href="https://www.alura.com.br/compra/plus/">
                 Assinar somente o Alura+
@@ -34,43 +35,47 @@
         </div>
     </header>
     <main>
-        <section class="py-24 px-32 w-full flex items-center">
-            <img src="./img/Pixel True Mockup 1.png" alt="" class="w-120 mr-16">
+        <section class="w-full flex flex-col items-center text-center justify-center py-5 px-1 mb-10 sm:mb-0
+        sm:flex-row sm:py-24 sm:px-6  md:py-24 md:px-10 lg:py-24 lg:px-20 xl:py-24 xl:px-32">
+            <img src="./img/Pixel True Mockup 1.png" alt="" class="w-5/12 mr-0 sm:mr-16">
             <div>
                 <h2 class="text-white-main font-bold text-3xl mb-2">Assista do seu jeito</h2>
-                <p class="text-white-secondary opacity-80">Aproveite a tela grande da TV ou assista no tablet, laptop,
-                    celular e outros aparelhos. Nossa seleção de
-                    cursos não para de crescer.</p>
+                <p class="text-white-secondary opacity-80 text-center sm:text-left">Aproveite a tela grande da TV ou assista no tablet,
+                    laptop,
+                    celular e outros aparelhos. Nossa seleção de cursos não para de crescer.</p>
             </div>
         </section>
 
-        <section class="py-24 px-32 w-full flex items-center">
-            <div class="flex flex-col gap-4">
-                <p class="text-white-secondary opacity-80 mr-16">
+        <section class="w-full flex flex-col-reverse items-center text-center justify-center py-5 px-1 mb-10 sm:mb-0
+        sm:flex-row sm:py-24 sm:px-6 md:py-24 md:px-10 lg:py-24 lg:px-20 xl:py-24 xl:px-32">
+            <div class="flex flex-col gap-4 items-center sm:items-start">
+                <p class="text-white-secondary opacity-80 mr-0 text-center sm:text-left sm:mr-16">
                     Só o Combo+ oferece Alura+ e Alura Língua juntos para você ter acesso a cursos de diversas áreas da
                     tecnologia e aprender inglês ou espanhol, onde e como quiser.</p>
-                <a class="bg-blue-button text-white-main text-center rounded-lg p-4 h-14 w-1/3
+                <a class="bg-blue-button text-white-main text-center rounded-lg p-2 h-14 w-1/3 sm:p-4
                 transition-all hover:scale-[1.02] active:ring-2 ring-blue-button ring-offset-2 ring-offset-black-background"
                     href="https://www.alura.com.br/">
                     Assine o Combo+
                 </a>
             </div>
-            <img src="./img/Telas.png" alt="Telas do Alura Plus e do Alura Língua" class="w-120">
+            <img src="./img/Telas.png" alt="Telas do Alura Plus e do Alura Língua" class="w-5/12">
         </section>
 
-        <section class="py-24 px-32 w-full flex items-center">
-            <img src="./img/Notebook.png" alt="Notebook com a tela de um curso da Alura" class="w-120 mr-16">
+        <section class="w-full flex flex-col items-center text-center justify-center sm:flex-row py-5 px-1 mb-10 sm:mb-0
+        sm:py-24 sm:px-6 md:py-24 md:px-10 lg:py-24 lg:px-20 xl:py-24 xl:px-32">
+            <img src="./img/Notebook.png" alt="" class="w-5/12 mr-0 sm:mr-16">
             <div>
                 <h2 class="text-white-main font-bold text-3xl mb-2">Baixe seus cursos</h2>
-                <p class="text-white-secondary opacity-80">Baixe e assista quando e onde quiser. Assim, seus favoritos
-                    estão sempre com você, até mesmo sem internet.</p>
+                <p class="text-white-secondary opacity-80 text-center sm:text-left">Baixe e assista quando e onde
+                    quiser. Assim,
+                    seus favoritos estão sempre com você, até mesmo sem internet.</p>
             </div>
         </section>
 
-        <section class="py-24 px-32 flex flex-col items-center">
-            <h2 class="text-white-main text-3xl font-bold mb-10">Disponível nos seus dispositivos favoritos</h2>
+        <section class="py-16 px-26 flex flex-col items-center lg:py-24 lg:px-32">
+            <h2 class="text-white-main text-3xl font-bold mb-10 text-center">Disponível nos seus dispositivos favoritos</h2>
 
-            <ul class="flex">
+            <ul class="flex flex-col sm:flex-row">
 
                 <li class="flex flex-col items-center">
                     <img src="img/tv.png" alt="">
@@ -92,10 +97,10 @@
         </section>
     </main>
 
-    <footer class="flex flex-col items-center px-32 py-20 gap-6">
+    <footer class="flex flex-col items-center gap-6 px-6 py-10 sm:px-32 sm:py-20">
         <img src="img/Logo.png" alt="Logomarca da Alura" class="w-24 mb-4">
 
-        <ul class="flex gap-4">
+        <ul class="flex items-center flex-col gap-4 sm:flex-row">
             <li class="text-white-main text-sm">
                 <a href="" class="hover:underline active:text-blue-button">Idioma</a>
             </li>
@@ -119,9 +124,11 @@
             </li>
         </ul>
 
-        <p class="text-gray-secondary text-xs text-center">® 2021 Alura, Alura+ e Alura Língua. Todos os direitos reservados. Serviço de assinatura paga.
+        <p class="text-gray-secondary text-xs text-center">® 2021 Alura, Alura+ e Alura Língua. Todos os direitos
+            reservados. Serviço de assinatura paga.
             Conteúdo sujeito a disponibilidade.</p>
-        <p class="text-gray-secondary text-xs text-center">Alura+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço Alura+ é
+        <p class="text-gray-secondary text-xs text-center">Alura+ é um serviço pago, baseado em assinatura e sujeito a
+            termos e condições. O serviço Alura+ é
             comercializado por Aovs Sistemas de Informática S.A., Rua Vergueiro, 3185 - Liberdade, São Paulo -
             SP, 04101-300, Brasil e CNPJ 05.555.382/0001-33</p>
     </footer>
