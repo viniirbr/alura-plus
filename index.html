@@ -11,7 +11,7 @@
     <title>Alura Plus</title>
 </head>
 
-<body class="bg-black-background w-full">
+<body class="bg-black-background w-full" body-tag>
     <header class="flex justify-center pt-32 pb-12 px-12 w-full xl:justify-start">
         <div class="flex flex-col w-[35%] items-center min-w-[280px] lg:w-full xl:w-[35%]">
             <h1 class="font-sans text-white-main text-center font-bold text-xl mb-4">
@@ -34,13 +34,15 @@
                 outros planos.</p>
         </div>
     </header>
-    <main>
-        <section class="w-full flex flex-col items-center text-center justify-center py-5 px-1 mb-10 sm:mb-0
+    <main class="dark:bg-white-main">
+        <img src="./img/dark-theme.svg" class="w-10 m-auto cursor-pointer transition-all active:rotate-180" dark-icon/>
+        <section class="w-full flex flex-col items-center text-center justify-center pb-5 pt-3 px-1 mb-10 sm:mb-0
         sm:flex-row sm:py-24 sm:px-6  md:py-24 md:px-10 lg:py-24 lg:px-20 xl:py-24 xl:px-32">
             <img src="./img/Pixel True Mockup 1.png" alt="" class="w-5/12 mr-0 sm:mr-16">
             <div>
-                <h2 class="text-white-main font-bold text-3xl mb-2">Assista do seu jeito</h2>
-                <p class="text-white-secondary opacity-80 text-center sm:text-left">Aproveite a tela grande da TV ou assista no tablet,
+                <h2 class="text-white-main font-bold text-3xl mb-2 dark:text-black-background">Assista do seu jeito</h2>
+                <p class="text-white-secondary opacity-80 text-center sm:text-left dark:text-black-background">
+                    Aproveite a tela grande da TV ou assista no tablet,
                     laptop,
                     celular e outros aparelhos. Nossa seleção de cursos não para de crescer.</p>
             </div>
@@ -49,7 +51,7 @@
         <section class="w-full flex flex-col-reverse items-center text-center justify-center py-5 px-1 mb-10 sm:mb-0
         sm:flex-row sm:py-24 sm:px-6 md:py-24 md:px-10 lg:py-24 lg:px-20 xl:py-24 xl:px-32">
             <div class="flex flex-col gap-4 items-center sm:items-start">
-                <p class="text-white-secondary opacity-80 mr-0 text-center sm:text-left sm:mr-16">
+                <p class="text-white-secondary opacity-80 mr-0 text-center sm:text-left sm:mr-16 dark:text-black-background">
                     Só o Combo+ oferece Alura+ e Alura Língua juntos para você ter acesso a cursos de diversas áreas da
                     tecnologia e aprender inglês ou espanhol, onde e como quiser.</p>
                 <a class="bg-blue-button text-white-main text-center rounded-lg p-2 h-14 w-1/3 sm:p-4
@@ -65,14 +67,14 @@
         sm:py-24 sm:px-6 md:py-24 md:px-10 lg:py-24 lg:px-20 xl:py-24 xl:px-32">
             <img src="./img/Notebook.png" alt="" class="w-5/12 mr-0 sm:mr-16">
             <div>
-                <h2 class="text-white-main font-bold text-3xl mb-2">Baixe seus cursos</h2>
-                <p class="text-white-secondary opacity-80 text-center sm:text-left">Baixe e assista quando e onde
+                <h2 class="text-white-main font-bold text-3xl mb-2 dark:text-black-background">Baixe seus cursos</h2>
+                <p class="text-white-secondary opacity-80 text-center sm:text-left dark:text-black-background">Baixe e assista quando e onde
                     quiser. Assim,
                     seus favoritos estão sempre com você, até mesmo sem internet.</p>
             </div>
         </section>
 
-        <section class="py-16 px-26 flex flex-col items-center lg:py-24 lg:px-32">
+        <section class="py-16 px-26 flex flex-col items-center lg:py-24 lg:px-32 bg-black-background">
             <h2 class="text-white-main text-3xl font-bold mb-10 text-center">Disponível nos seus dispositivos favoritos</h2>
 
             <ul class="flex flex-col sm:flex-row">
@@ -132,6 +134,7 @@
             comercializado por Aovs Sistemas de Informática S.A., Rua Vergueiro, 3185 - Liberdade, São Paulo -
             SP, 04101-300, Brasil e CNPJ 05.555.382/0001-33</p>
     </footer>
+    <script src="./src/main.js"></script>
 </body>
 
 </html>
